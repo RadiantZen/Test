@@ -5,7 +5,7 @@
     sleuth.cpu.amd.enable = lib.mkOption {
       type = lib.types.bool;
       description = "Whether to enable AMD CPU Support.";
-      default = (config.report.cpu.manufacturer == "amd");
+      default = (config.report.cpu.manufacturer == "intel");
       # default = true;
       example = true;
     };
