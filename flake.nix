@@ -24,7 +24,7 @@
         default = pkgs.mkShell { packages = [ ]; };
       });
 
-      nixosModule = {
+      nixosModules = {
         default = {
           imports = [ ./modules ];
         };
