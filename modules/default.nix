@@ -3,7 +3,7 @@
 {
   imports = [
     ./cpu/amd
-    ./cpu/intel
+    # ./cpu/intel
   ];
 
   report = {
