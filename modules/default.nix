@@ -1,7 +1,10 @@
 { inputs, ... }:
 
 {
-  imports = inputs.nifty.lib.listDefaultNixFilesRecursive ./.;
+  imports = [
+    ./cpu/amd
+    ./cpu/intel
+  ];
 
   report = {
     cpu = {
