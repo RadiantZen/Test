@@ -6,7 +6,7 @@
     # ./cpu/intel
   ];
 
-  report = {
+  option.report = {
     cpu = {
       manufacturer = "amd";
       model = "6700 XT";
