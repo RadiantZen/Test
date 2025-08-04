@@ -12,7 +12,7 @@
   };
 
   config = lib.mkIf config.sleuth.cpu.amd.enable {
-    imports = inputs.nifty.lib.listNixFilesRecursive ./modules;
+    # imports = inputs.nifty.lib.listNixFilesRecursive ./modules;
     hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
   };
 
