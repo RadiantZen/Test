@@ -17,5 +17,17 @@
       manufacturer = "xfx";
       variation = "QICK 309";
     };
+    motherboard = {
+      manufacturer = "ASRock";
+      chipset = "";
+      branding = "x470";
+      variation = "";
+      ram = {
+        slot0 = "";
+        slot1 = "";
+        slot2 = "";
+        slot4 = "";
+      }
+    };
   };
 }
